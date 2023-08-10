@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Banner feltöltése</title>
+</head>
+<body>
+    
+<div class="container">
+    <div class="title">Banner feltöltése</div>
+
+    <div class="box">
+        <a href="#"><button type="submit" class="file"><img class="size1" src="assets/file.png" alt="file">fájl</button></a>
+        <a href="#"><button type="submit" class="script"><img class="size1" src="assets/script.png" alt="file">script</button></a>
+    </div>
+
+
+    <div class="pos">
+        <svg width="125" height="125">
+            <circle cx="62.5" cy="62.5" r="61.5" stroke="#B1DDC4" stroke-width="4" stroke-dasharray="16" stroke-dashoffset="7" fill="transparent" />
+        </svg>
+
+        <div class="posi">
+            <input style="display:none" type="file" id="file"/><label for="file"><img class="size2" src="assets/upload.png"></label>
+        </div>
+    </div>
+
+    <div class="box2">
+        <img class="tt" src="assets/title.png"><label class="margin">Név</label>
+    </div>
+    <input class="data" type="text" placeholder="Név">
+
+    <div class="box2">
+        <img class="tt" src="assets/link.png"><label class="margin">Célállomás helye</label>
+    </div>
+    <input class="data" type="text" placeholder="Célállomás helye">
+
+    <div class="box2">
+    <img class="tt" src="assets/size.png"><label class="margin">Méret</label>
+    </div>
+
+    <div class="radioalign">
+        <div class="radio"><input type="radio" name="radio" id="radio1" /><label class="radio" for="radio1">728 x 90</label></div>
+        <div class="radio"><input type="radio" name="radio" id="radio2" /><label class="radio" for="radio2">320 x 100</label></div>
+        <div class="radio"><input type="radio" name="radio" id="radio3" /><label class="radio" for="radio3">468 x 60</label></div>
+        <div class="radio"><input type="radio" name="radio" id="radio4" /><label class="radio" for="radio4">360 x 360</label></div>
+    </div>
+
+    <div class="box3">
+        <a href="#"><button type="submit" class="close"><img class="size1" src="assets/close.png" alt="file">mégse</button></a>
+        <a href="#"><button type="submit" class="done"><img class="size1" src="assets/check.png" alt="file">kész</button></a>
+    </div>
+
+</div>
+
+</body>
+</html>
