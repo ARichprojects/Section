@@ -1,0 +1,187 @@
+body {
+    background-color: #B1DDC4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.container {
+    background-color: #fff;
+    width: 864px;
+    height: 704px;
+    border-radius: 8px;
+}
+
+.title {
+    margin: 40px 206px 20px 206px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}
+
+button.file {
+    border-radius: 20px 0px 0px 20px;
+    background: #55AE3A;
+    color: #FFF;
+}
+
+button.file:active {
+    color: red;
+}
+
+button.script {
+    border-radius: 0px 20px 20px 0px;
+    background: #063;
+    color: #FFF;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0px;
+    height: 32px;
+    gap: 4px;
+    padding: 6px 24px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img.size1 {
+    width: 20px;
+    height: 20px;
+}
+
+img.size2 {
+    width: 46.125px;
+    height: 46.125px;
+    margin: 38.44px;
+}
+
+img.tt {
+    height: 24px;
+    width: 24px;
+}
+
+.circle {
+    width: 123px;
+    height: 123px;
+    border-radius: 200px;
+    border: 4px dashed #B1DDC4;
+    margin: 20px 370.5px 0 370.5px;
+}
+
+
+label {
+    color: #063;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+label.margin {
+    margin-left: 4px;
+}
+
+.box2 {
+    margin-top: 20px;
+    margin-left: 167px;
+    display: flex;
+    align-items: center;
+}
+
+input.data {
+    width: 544px;
+    height: 20px;
+    padding: 10px 12px;
+    border-radius: 20px;
+    border: 1px solid #063;
+    color: #363636;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 148px;
+}
+
+input[type=radio] {
+    width: 24px;
+    height: 24px;
+    border-color: #363636;
+}
+
+label.radio {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}
+
+.radioalign {
+    margin-left: 148px;
+    margin-bottom: 20px;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button.close {
+    margin-left: 148px;
+    border-radius: 20px;
+    background: #063;
+    color: #FFF;
+}
+
+button.done {
+    margin-right: 148px;
+    color: #BFBFBF;
+    border-radius: 20px;
+    background: #DADADA;
+}
+
+.pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.posi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin-top: 0px;
+}
