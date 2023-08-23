@@ -55,13 +55,6 @@ h1 {
 .title img {
     margin-right: 8px;
 }
-img.close {
-    position: absolute;
-    height: 14px;
-    width: 14px;
-    top: 17px;
-    right: 26px;
-}
 
 input[type=text] {
     width: 375px;
@@ -174,4 +167,27 @@ button:active {
     left: 306px;
     width: 89px;
     height: 75px;
+}
+
+img.mail {
+    width:36px;
+    height:28px
+}
+
+img.ring {
+    width: 20px;
+    height: 20px;
+}
+
+img.openedmail {
+    width: 89px;
+    height: 75px;
+}
+
+img.window-close {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 17px;
+    right: 26px;
 }
