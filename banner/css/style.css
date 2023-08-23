@@ -55,7 +55,7 @@ button {
     padding: 6px 24px;
 }
 
-.box {
+.buttonbox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,21 +66,22 @@ a {
     text-decoration: none;
 }
 
-img.size1 {
-    width: 20px;
-    height: 20px;
+img.size24x24 {
+    height: 24px;
+    width: 24px;
 }
 
-img.size2 {
+img.size20x20 {
+    height: 20px;
+    width: 20px;
+}
+
+img.upload {
     width: 46.125px;
     height: 46.125px;
     margin: 38.44px;
 }
 
-img.tt {
-    height: 24px;
-    width: 24px;
-}
 
 .circle {
     width: 123px;
@@ -104,7 +105,7 @@ label.margin {
     margin-left: 4px;
 }
 
-.box2 {
+.inputnamepos {
     margin-top: 20px;
     margin-left: 167px;
     display: flex;
@@ -151,7 +152,7 @@ label.radio {
     margin-bottom: 20px;
 }
 
-.box3 {
+.bottombuttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -171,17 +172,31 @@ button.done {
     background: #DADADA;
 }
 
-.pos {
+.circleposition {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
 }
 
-.posi {
+.uploadincircle {
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
     margin-top: 0px;
+}
+
+span.material-icons {
+    font-size: 20px;
+}
+
+span.material-symbols-outlined {
+    font-size: 24px;
+    color: #006633;
+}
+
+span.white-colored {
+    color: #FFFFFF;
+    font-size: 20px;
 }
