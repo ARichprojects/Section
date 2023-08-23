@@ -8,41 +8,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Banner feltöltése</title>
 </head>
 <body>
     
 <div class="container">
     <div class="title">Banner feltöltése</div>
-
-    <div class="box">
-        <a href="#"><button type="submit" class="file"><img class="size1" src="assets/file.png" alt="file">fájl</button></a>
-        <a href="#"><button type="submit" class="script"><img class="size1" src="assets/script.png" alt="file">script</button></a>
+    <form action="">
+    <div class="buttonbox">
+        <a href="#"><button type="submit" class="file"><span class="material-icons">insert_drive_file</span>fájl</button></a>
+        <a href="#"><button type="submit" class="script"><img class="size20x20" src="svg/script.svg" alt="script">script</button></a>
     </div>
 
-
-    <div class="pos">
+    <div class="circleposition">
         <svg width="125" height="125">
-            <circle cx="62.5" cy="62.5" r="61.5" stroke="#B1DDC4" stroke-width="4" stroke-dasharray="16" stroke-dashoffset="7" fill="transparent" />
+        <circle cx="62.5" cy="62.5" r="61.5" stroke="#B1DDC4" stroke-width="4" stroke-dasharray="16" stroke-dashoffset="7" fill="transparent" />
         </svg>
 
-        <div class="posi">
-            <input style="display:none" type="file" id="file"/><label for="file"><img class="size2" src="assets/upload.png"></label>
+        <div class="uploadincircle">
+            <input style="display:none" type="file" id="file"/>
+            <label for="file">
+            <img class="upload" src="svg/upload.svg" alt="upload">
+            </label>
         </div>
     </div>
 
-    <div class="box2">
-        <img class="tt" src="assets/title.png"><label class="margin">Név</label>
+    <div class="inputnamepos">
+        <img class="size24x24" src="svg/title.svg" alt="title">
+        <label class="margin">Név</label>
     </div>
     <input class="data" type="text" placeholder="Név">
 
-    <div class="box2">
-        <img class="tt" src="assets/link.png"><label class="margin">Célállomás helye</label>
+    <div class="inputnamepos">
+        <img class="size24x24" src="svg/link.svg" alt="link">
+        <label class="margin">Célállomás helye</label>
     </div>
     <input class="data" type="text" placeholder="Célállomás helye">
 
-    <div class="box2">
-    <img class="tt" src="assets/size.png"><label class="margin">Méret</label>
+    <div class="inputnamepos">
+    <span class="material-symbols-outlined">photo_size_select_small</span><label class="margin">Méret</label>
     </div>
 
     <div class="radioalign">
@@ -51,10 +57,11 @@
         <div class="radio"><input type="radio" name="radio" id="radio3" /><label class="radio" for="radio3">468 x 60</label></div>
         <div class="radio"><input type="radio" name="radio" id="radio4" /><label class="radio" for="radio4">360 x 360</label></div>
     </div>
+    </form>
 
-    <div class="box3">
-        <a href="#"><button type="submit" class="close"><img class="size1" src="assets/close.png" alt="file">mégse</button></a>
-        <a href="#"><button type="submit" class="done"><img class="size1" src="assets/check.png" alt="file">kész</button></a>
+    <div class="bottombuttons">
+        <a href="#"><button type="submit" class="close"><span class="material-symbols-outlined white-colored">close</span>mégse</button></a>
+        <a href="#"><button type="submit" class="done"><span class="material-symbols-outlined white-colored">check</span>kész</button></a>
     </div>
 
 </div>
