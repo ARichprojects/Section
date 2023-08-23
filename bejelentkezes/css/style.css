@@ -14,7 +14,7 @@ body {
     border-radius: 7px;
 }
 
-.title {
+.welcome-title {
     margin-top: 60px;
     text-align: center;
     font-family: Roboto;
@@ -24,7 +24,7 @@ body {
     line-height: 20px;
 }
 
-.title2 {
+.login-title {
     margin-top: 8px;
     text-align: center;
     font-family: Roboto;
@@ -55,7 +55,7 @@ button.login {
     margin-top: 21px;
 }
 
-button.login2 {
+button.mainlogin {
     color: #fff;
     background-color: #063;
     border-radius: 44px;
@@ -96,11 +96,7 @@ input {
     font-weight: 400;
     margin: 0px 12px 0px 16px;
     padding: 0px;
-}
-
-input.error {
-    margin-top: 29px;
-    border: 1pt solid #EF3A43;
+    padding-left: 6px;
 }
 
 input.passw {
@@ -108,16 +104,16 @@ input.passw {
 }
 
 input::placeholder{
-    padding-left: 6px;
     color: #55AE3A;
 }
 
-.box {
+.loginbox {
     display: inline-block;
     font-size: 0;
+    margin-bottom: 29px;
 }
 
-p.rec {
+p.recover {
     margin: 8px;
     font-family: Roboto;
     font-size: 16px;
@@ -137,19 +133,31 @@ p.error {
     line-height: normal;
 }
 
+input.error:invalid {
+    border: 1pt solid #EF3A43;
+}
+
+input:invalid + #error {
+    display: block;
+}
+  
+input:valid + #error {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: #000000
 }
 
-.line {
+.lineleft {
     height: 1px;
     width: 116px;
     margin-left: 0px;
     background-color:#55AE3A;
 }
 
-.line2 {
+.lineright {
     height: 1px;
     width: 116px;
     margin-left: 18px;
@@ -169,19 +177,19 @@ a {
     margin-left: 18px;
 }
 
-.container1 {
+.togglebox {
     display: inline-flex;
     align-items: center;
     margin: 55px 0px 0px 12px;
 }
 
-.container2 {
+.linebox {
     display: inline-flex;
     align-items: center;
     margin: 25px 0px 0px 0px;
 }
 
-.container3 {
+.otherloginbox {
     display: inline-flex;
     align-items: center;
     margin: 26px 0px 0px 0px;
@@ -198,6 +206,10 @@ a {
     border-radius: 44px;
 }
 
+.fb:hover {
+    background-color: #55AE3A;
+}
+
 .google {
     display: flex;
     justify-content: center;
@@ -209,21 +221,24 @@ a {
     border-radius: 44px;
 }
 
+.google:hover {
+    background-color: #55AE3A;
+}
+
 img.logo {
     width: 28.5px;
     height: 28.5px;
 }
 
-label.eye {
+img.visibility {
     position: absolute;
     top: 22px;
     right: 21px;
     height: 24px;
     width: 24px;
-    background-image: url('../assets/eye.jpg');
 }
 
-.eye {
+.visibilityicon {
     position: relative;
 }
 
@@ -252,12 +267,13 @@ label.eye {
     height: 20px;
     width: 20px;
     left: 0px;
-    background-color: #55AE3A;
+    background-color: #006633;
     transition: .4s;
 }
-  
+
 input:checked + .slider:before {
     transform: translateX(13px);
+    background-color: #55AE3A;
 }
   
 .slider.round:before {
@@ -270,7 +286,7 @@ input[type=checkbox]{
 	visibility: hidden;
 }
 
-.rem {
+.remember {
     color: #000000;
     font-family: Roboto;
     font-size: 13px;
