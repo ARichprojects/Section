@@ -7,47 +7,51 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@800;700&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
     <title>Bejelentkezés</title>
 </head>
 <body>
     
-    <div class="container">
-<div class="title">Üdv újra!</div>
-<div class="title2">Lépj be a fiókodba</div>
-<div class="box">
+<div class="container">
+    <div class="welcome-title">Üdv újra!</div>
+    <div class="login-title">Lépj be a fiókodba</div>
+
+<div class="loginbox">
 <a href="#"><button type="submit" class="signup">Regisztráció</button></a>
 <a href="#"><button type="submit" class="login">Belépés</button></a>
 </div>
-<input class="error" type="email" placeholder="Email">
-<p class="error">Hibás e-mail cím</p>
-<div class="eye">
-<input class="passw" type="text" placeholder="Jelszó">
-<label class="eye"></label></div>
-<p class="rec"><a href="#">Elfelejtetted a jelszavad?</a></p>
 
-<div class="container1">
+<input class="error" type="email" id="email" pattern=".+@.+" placeholder="Email">
+<p id="error" class="error">Hibás e-mail cím</p>
+
+<div class="visibilityicon">
+    <input class="passw" type="password" placeholder="Jelszó">
+    <img class="visibility" src="svg/visibility.svg" alt="visibility">
+</div>
+<p class="recover"><a href="#">Elfelejtetted a jelszavad?</a></p>
+
+<div class="togglebox">
     <label class="switch">
         <input type="checkbox">
         <span class="slider round"></span>
     </label>
-        <label class="rem">Emlékezz rám</label>
+        <label class="remember">Emlékezz rám</label>
 </div>
 
-<a href="#"><button type="submit" class="login2">Bejelentkezés</button></a>
+<a href="#"><button type="submit" class="mainlogin">Bejelentkezés</button></a>
 
-<div class="container2">
-    <div class="line"></div>
+<div class="linebox">
+    <div class="lineleft"></div>
     <div class="or">vagy</div>
-    <div class="line2"></div>
+    <div class="lineright"></div>
 </div>
 
-<div class="container3">
-    <div class="fb"><img class="logo" src="assets/fb.png"></div>
-    <div class="google"><img class="logo" src="assets/gg.png"></div>
+<div class="otherloginbox">
+    <div class="fb"><img class="logo" src="svg/facebook.svg" alt="facebook"></div>
+    <div class="google"><img class="logo" src="svg/google.svg" alt="google"></div>
 </div>
 
+</div>
 
-    </div>
 </body>
 </html>
