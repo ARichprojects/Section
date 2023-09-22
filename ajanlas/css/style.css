@@ -1,0 +1,155 @@
+body {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.container {
+    background-color: #fff;
+    width: 272px;
+    height: 931px;
+}
+
+.title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+img.footballpic {
+    width: 272px;
+    height: 154px;
+    margin-bottom: -4px;
+}
+
+.box {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #C6E1BE;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+img.sparkles {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+img.profilpicture {
+    width: 32px;
+    height: 32px;
+}
+
+.text {
+    margin-left: 4px;
+}
+
+.lane {
+    background-color: #006633;
+    width: 268px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-left: 4px;
+}
+
+span.group {
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+span.minute {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+span.time {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 48px;
+}
+
+img.group {
+    width: 16px;
+    height: 16px;
+    margin: 0px 2px 0px 14px;
+}
+
+img.clock {
+    width: 20px;
+    height: 20px;
+}
+
+.groupsport {
+    background-image: url('../assets/groupbg.png');
+    width: 90px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+button.more {
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #55AE3A;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlelane {
+    background-image: url('../svg/lane.svg');
+    background-repeat: no-repeat;
+    width: 272px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.paralelogramm {
+    background-image: url('../svg/paralelogramm.svg');
+    width: 134px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
