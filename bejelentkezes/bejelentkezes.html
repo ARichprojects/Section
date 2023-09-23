@@ -21,24 +21,26 @@
 <a href="#"><button type="submit" class="login">Belépés</button></a>
 </div>
 
+<form method="post" action="">
 <input class="error" type="email" id="email" pattern=".+@.+" placeholder="Email">
 <p id="error" class="error">Hibás e-mail cím</p>
 
 <div class="visibilityicon">
-    <input class="passw" type="password" placeholder="Jelszó">
+    <input class="passw" type="password" id="passw" placeholder="Jelszó">
     <img class="visibility" src="svg/visibility.svg" alt="visibility">
 </div>
 <p class="recover"><a href="#">Elfelejtetted a jelszavad?</a></p>
 
 <div class="togglebox">
     <label class="switch">
-        <input type="checkbox">
+        <input type="checkbox" id="checkbox">
         <span class="slider round"></span>
     </label>
         <label class="remember">Emlékezz rám</label>
 </div>
 
 <a href="#"><button type="submit" class="mainlogin">Bejelentkezés</button></a>
+</form>
 
 <div class="linebox">
     <div class="lineleft"></div>
