@@ -14,10 +14,12 @@
 <div class="container">
     <img class="window-close" src="svg/window-close.svg" alt="window-close">
     <div class="title"><img class="mail" src="svg/mail.svg" alt="mail"><h1>Iratkozz fel hírlevelünkre!</h1></div>
-    <div class="input"><input type="text" placeholder="Név"></div>
-    <div class="input2"><input type="text" placeholder="E-mail cím"></div>
-    <div class="checkbox"><input type="checkbox" id="checkbox"><label for="checkbox"></label><span class="checkbox1">Elfogadom az</span>&nbsp;<a href="#" class="link"><span class="checkbox2">adatkezelési tájékoztatót.</span></a></div>
-    <button type="submit"><img class="ring" src="svg/ring.svg" alt="ring">Feliratkozás</button>
+    <form method="post" action="">
+        <div class="input"><input type="text" id="name" placeholder="Név"></div>
+        <div class="input2"><input type="text" id="email" placeholder="E-mail cím"></div>
+        <div class="checkbox"><input type="checkbox" id="checkbox"><label for="checkbox"></label><span class="checkbox1">Elfogadom az</span>&nbsp;<a href="#" class="link"><span class="checkbox2">adatkezelési tájékoztatót.</span></a></div>
+        <button type="submit"><img class="ring" src="svg/ring.svg" alt="ring">Feliratkozás</button>
+    </form>
     <div class="letter">
         <img class="openedmail" src="svg/openedmail.svg" alt="openedmail">
     </div>
