@@ -1,10 +1,10 @@
 body {
     background-color: #B1DDC4;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px;
+    overflow: auto;
 }
 
 .container {
@@ -15,7 +15,10 @@ body {
 }
 
 .title {
-    margin: 40px 206px 20px 206px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
     color: #000;
     font-family: Roboto;
     font-size: 24px;
@@ -76,13 +79,6 @@ img.size20x20 {
     width: 20px;
 }
 
-img.upload {
-    width: 46.125px;
-    height: 46.125px;
-    margin: 38.44px;
-}
-
-
 .circle {
     width: 123px;
     height: 123px;
@@ -90,7 +86,6 @@ img.upload {
     border: 4px dashed #B1DDC4;
     margin: 20px 370.5px 0 370.5px;
 }
-
 
 label {
     color: #063;
@@ -107,13 +102,21 @@ label.margin {
 
 .inputnamepos {
     margin-top: 20px;
-    margin-left: 167px;
+    margin-left: 19.5%;
     display: flex;
     align-items: center;
 }
 
+.inputpos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 18.5%;
+    margin-right: 18.5%;
+}
+
 input.data {
-    width: 544px;
+    width: 100%;
     height: 20px;
     padding: 10px 12px;
     border-radius: 20px;
@@ -124,7 +127,6 @@ input.data {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 148px;
 }
 
 input[type=radio] {
@@ -148,7 +150,7 @@ label.radio {
 }
 
 .radioalign {
-    margin-left: 148px;
+    margin-left: 18.5%;
     margin-bottom: 20px;
 }
 
@@ -156,17 +158,17 @@ label.radio {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 18.5%;
+    margin-right: 18.5%;
 }
 
 button.close {
-    margin-left: 148px;
     border-radius: 20px;
     background: #063;
     color: #FFF;
 }
 
 button.done {
-    margin-right: 148px;
     color: #BFBFBF;
     border-radius: 20px;
     background: #DADADA;
@@ -177,14 +179,6 @@ button.done {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-}
-
-.uploadincircle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    margin-top: 0px;
 }
 
 span.material-icons {
